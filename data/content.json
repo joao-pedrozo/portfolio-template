@@ -1,0 +1,65 @@
+{
+  "profile": {
+    "name": "Your Name",
+    "tagline": "Your Tagline or Brief Bio",
+    "avatarUrl": "/placeholder.svg?height=128&width=128"
+  },
+  "links": [
+    { "title": "My Website", "url": "https://example.com" },
+    { "title": "Twitter", "url": "https://twitter.com/example" },
+    { "title": "Instagram", "url": "https://instagram.com/example" },
+    { "title": "GitHub", "url": "https://github.com/example" },
+    { "title": "LinkedIn", "url": "https://linkedin.com/in/example" }
+  ],
+  "galleryItems": [
+    {
+      "title": "Project 1",
+      "imageUrl": "/placeholder.svg?height=300&width=400",
+      "description": "A brief description of Project 1",
+      "details": "Project 1 is an innovative application that solves complex problems in a user-friendly way. It was developed using cutting-edge technologies and has received positive feedback from users worldwide."
+    },
+    {
+      "title": "Artwork 1",
+      "imageUrl": "/placeholder.svg?height=400&width=300",
+      "description": "A stunning piece of digital art",
+      "details": "Artwork 1 is a digital masterpiece created using a combination of 3D modeling and traditional painting techniques. It explores themes of nature and technology, blending organic forms with mechanical elements."
+    },
+    {
+      "title": "Photo 1",
+      "imageUrl": "/placeholder.svg?height=350&width=350",
+      "description": "A captivating photograph",
+      "details": "Photo 1 captures a breathtaking moment in nature, showcasing the beauty of a remote landscape. It was taken during a challenging expedition and required careful planning to achieve the perfect lighting conditions."
+    },
+    {
+      "title": "Project 2",
+      "imageUrl": "/placeholder.svg?height=250&width=400",
+      "description": "An exciting new web application",
+      "details": "Project 2 is a web application designed to streamline workflow processes for small businesses. It features a intuitive interface, powerful analytics, and seamless integration with popular productivity tools."
+    },
+    {
+      "title": "Artwork 2",
+      "imageUrl": "/placeholder.svg?height=450&width=300",
+      "description": "An abstract digital creation",
+      "details": "Artwork 2 is an abstract digital creation that explores the concept of chaos and order. It uses a unique algorithm to generate complex patterns that are both random and structured, creating a visually striking piece."
+    },
+    {
+      "title": "Photo 2",
+      "imageUrl": "/placeholder.svg?height=300&width=400",
+      "description": "A powerful portrait",
+      "details": "Photo 2 is a compelling portrait that tells a story of resilience and hope. It was taken as part of a documentary project and has since been featured in several international photography exhibitions."
+    },
+    {
+      "title": "Project 3",
+      "imageUrl": "/placeholder.svg?height=350&width=350",
+      "description": "A groundbreaking mobile app",
+      "details": "Project 3 is a mobile application that uses augmented reality to enhance educational experiences. It has been adopted by schools across the country and has shown significant improvements in student engagement and learning outcomes."
+    },
+    {
+      "title": "Artwork 3",
+      "imageUrl": "/placeholder.svg?height=400&width=300",
+      "description": "A series of digital illustrations",
+      "details": "Artwork 3 is a collection of digital illustrations inspired by classic literature. Each piece in the series reimagines a famous scene or character in a modern, vibrant style, bridging the gap between traditional storytelling and contemporary art."
+    }
+  ]
+}
+
