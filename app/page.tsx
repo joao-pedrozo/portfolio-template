@@ -56,10 +56,10 @@ export default function LinkTreeGallery() {
             variant={activeTab === "connect" ? "default" : "outline"}
             className="mr-2"
           >
-            Connect With Me
+            Links
           </Button>
           <Button onClick={() => setActiveTab("gallery")} variant={activeTab === "gallery" ? "default" : "outline"}>
-            My Gallery
+            Projects
           </Button>
         </div>
 
@@ -89,7 +89,7 @@ export default function LinkTreeGallery() {
         )}
 
         {activeTab === "gallery" && (
-          <section>
+          <section className="flex items-center justify-center">
             {mounted && (
               <Masonry
                 breakpointCols={breakpointColumnsObj}
@@ -97,7 +97,7 @@ export default function LinkTreeGallery() {
                 columnClassName="pl-4 bg-clip-padding"
               >
                 {content.galleryItems.map((item, index) => (
-                  <div key={index} className="mb-4 cursor-pointer" onClick={() => setSelectedProject(item)}>
+                  <div key={index} className="sm:flex flex-col items-center justify-center md:block mb-4 cursor-pointer" onClick={() => setSelectedProject(item)}>
                     <Image
                       src={item.imageUrl || "/placeholder.svg"}
                       alt={item.title}
