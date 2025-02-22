@@ -37,7 +37,7 @@ export default function LinkTreeGallery() {
         <span className="sr-only">Toggle theme</span>
       </Button>
 
-      <header className="pt-16 pb-8 px-4 text-center">
+      <header className="pt-16 pb-1 px-4 text-center">
         <Image
           src={content.profile.avatarUrl || "/placeholder.svg"}
           alt="Profile Picture"
