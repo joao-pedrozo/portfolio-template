@@ -8,12 +8,13 @@ import { useTheme } from "next-themes"
 import { Moon, Sun, ExternalLink } from "lucide-react"
 import { ProjectModal } from "@/components/project-modal"
 import content from "@/data/content.json"
+import Testimonials from "@/components/testimonials"
 
 export default function LinkTreeGallery() {
   const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
   const [selectedProject, setSelectedProject] = useState<(typeof content.galleryItems)[0] | null>(null)
-  const [activeTab, setActiveTab] = useState<"connect" | "gallery">("connect")
+  const [activeTab, setActiveTab] = useState<"connect" | "gallery" | "testimonials" >("connect")
 
   useEffect(() => {
     setMounted(true)
@@ -26,7 +27,7 @@ export default function LinkTreeGallery() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-950 text-gray-900 dark:text-gray-100 transition-colors duration-200">
+    <div className="min-h-screen bg-gray-100 dark:bg-[#0a0a0a] text-gray-900 dark:text-gray-100 transition-colors duration-200">
       <Button
         variant="outline"
         size="icon"
@@ -60,6 +61,13 @@ export default function LinkTreeGallery() {
           </Button>
           <Button onClick={() => setActiveTab("gallery")} variant={activeTab === "gallery" ? "default" : "outline"}>
             Projects
+          </Button>
+          <Button
+            onClick={() => setActiveTab("testimonials")}
+            variant={activeTab === "testimonials" ? "default" : "outline"}
+            className="ml-2"
+          >
+            Testimonials
           </Button>
         </div>
 
@@ -113,6 +121,8 @@ export default function LinkTreeGallery() {
             )}
           </section>
         )}
+
+        {activeTab === "testimonials" && <Testimonials />}
       </main>
 
       <footer className="mt-12 py-4 text-center text-sm text-gray-500 dark:text-gray-400">

@@ -60,6 +60,28 @@
       "description": "A series of digital illustrations",
       "details": "Artwork 3 is a collection of digital illustrations inspired by classic literature. Each piece in the series reimagines a famous scene or character in a modern, vibrant style, bridging the gap between traditional storytelling and contemporary art."
     }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "text": "An exceptional professional who consistently delivers outstanding results. Their technical expertise and creative approach have been invaluable to our projects.",
+      "author": "Sarah Johnson",
+      "position": "Tech Lead at InnovateCorp",
+      "image": "https://github.com/shadcn.png"
+    },
+    {
+      "id": 2,
+      "text": "Working with them has been transformative for our team. Their ability to solve complex problems while maintaining clear communication makes them stand out.",
+      "author": "Michael Chen",
+      "position": "Project Manager at DevSolutions",
+      "image": "https://github.com/shadcn.png"
+    },
+    {
+      "id": 3,
+      "text": "I'm thoroughly impressed by their dedication and skill set. They bring both technical excellence and innovative thinking to every project.",
+      "author": "Emma Rodriguez",
+      "position": "Senior Developer at TechFlow",
+      "image": "https://github.com/shadcn.png"
+    }
   ]
 }
-
